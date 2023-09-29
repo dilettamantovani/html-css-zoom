@@ -15,11 +15,11 @@
         <!-- HEADER -->
         <header class="bg-black">
             <div class="d-flex justify-end speaker c-white">
-                <div class="speaker-view bg-grey">
+                <div class="speaker-view bg-grey b-radius p-4 mr-8 mt-4">
                     <i class="fa-solid fa-table-cells-large"></i>
                     <span>Speaker View</span>
                 </div>
-                <div><i class="fa-solid fa-maximize bg-grey"></i></div>
+                <div><i class="fa-solid fa-maximize bg-grey b-radius mt-4 mr-6"></i></div>
             </div>
         </header>
 
@@ -311,14 +311,25 @@
 
         <!-- FOOTER -->
         <footer class="d-flex justify-between align-center bg-darkgrey">
-            <div class="footer-left">
-                <i class="fa-solid fa-microphone">Mute</i>
-                <i class="fa-solid fa-angle-up"></i>
-                <i class="fa-solid fa-video">Stop Video</i>
-                <i class="fa-solid fa-angle-up"></i>
+            <div class="footer-left d-flex justify-evenly">
+                <div class="icons">
+                    <i class="fa-solid fa-microphone">Mute</i>
+                </div>
+                
+                <div class="icons">
+                    <i class="fa-solid fa-angle-up"></i>
+                </div>
+
+                <div class="icons">
+                    <i class="fa-solid fa-video">Stop Video</i>
+                </div>
+                
+                <div class="icons">
+                    <i class="fa-solid fa-angle-up"></i>
+                </div>
             </div>
 
-            <div class="footer-mid">
+            <div class="footer-mid d-flex">
                 <i class="fa-solid fa-user-plus">Invite</i>
                 <i class="fa-solid fa-user-group-simple">Manage Participants</i>
                 <i class="fa-sharp fa-solid fa-chart-column">Polling</i>
@@ -331,7 +342,7 @@
             </div>
 
             <div class="footer-right bg-grey ">
-                <a href="">End meeting</a>
+                <span>End Meeting</span>
             </div>
         </footer>
 

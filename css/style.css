@@ -26,6 +26,24 @@ main {
     overflow-y: auto;
 }
 
+.container {
+    width: 98%;
+    margin: auto;
+}
+
+.speaker {
+    display: flex;
+    align-items: center;
+}
+
+.speaker-view, .fa-maximize {
+    font-size: 14px;
+}
+
+.fa-maximize {
+    padding: 5.5px;
+}
+
 .card {
     width: 14%;
 }
@@ -46,6 +64,10 @@ footer {
     height: 75px;
 }
 
-.footer-right > a {
+.footer-right {
+    height: 100%;
+}
+
+.footer-right > span {
     color: red;
 }

@@ -31,6 +31,9 @@
 .w-100 { width: 100%; }
 
 
+/* BORDER RADIUS */
+.b-radius { border-radius: 2px; }
+
 /* PADDING */
 .p-4 { padding: 4px; }
 .pt-4 { padding-top: 4px; }
@@ -90,13 +93,21 @@
 
 
 /* MARGIN */
-.m-4 { padding: 4px; }
-.mt-4 { padding-top: 4px; }
-.mr-4 { padding-right: 4px; }
-.mb-4 { padding-bottom: 4px; }
-.ml-4 { padding-left: 4px; }
-.my-4 { padding: 4px 0; }
-.mx-4 { padding: 0 4px; }
+.m-4 { margin: 4px; }
+.mt-4 { margin-top: 4px; }
+.mr-4 { margin-right: 4px; }
+.mb-4 { margin-bottom: 4px; }
+.ml-4 { margin-left: 4px; }
+.my-4 { margin: 4px 0; }
+.mx-4 { margin: 0 4px; }
+
+.m-6 { margin: 6px; }
+.mt-6 { margin-top: 6px; }
+.mr-6 { margin-right: 6px; }
+.mb-6 { margin-bottom: 6px; }
+.ml-6 { margin-left: 6px; }
+.my-6 { margin: 6px 0; }
+.mx-6 { margin: 0 6px; }
 
 .m-8 { margin: 8px; }
 .mt-8 { margin-top: 8px; }
